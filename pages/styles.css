@@ -6,6 +6,7 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+
 .root {
     display: flex;
     place-content: center flex-start;
@@ -93,9 +94,9 @@ body {
     flex: 0 0 auto;
     flex-flow: column nowrap;
     gap: 10px;
-    height: 150px;
+    height: 20px;
     overflow: hidden;
-    padding: 20px;
+    padding: 15px;
     position: relative;
     width: 610px;
     max-width: 1200px;
@@ -111,6 +112,7 @@ body {
     color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
     text-transform: none;
+    
 }
 
 textarea {
@@ -172,7 +174,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: rgb(22, 44, 155);
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -413,3 +415,111 @@ textarea {
         transform: rotate(360deg);
     }
 }
+
+
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  .output {
+    place-content: center flex-start;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: min-content;
+    max-width: 1200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  .output-content p {
+    text-align: center;
+    white-space: pre-line;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .output-header-container {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 16px;
+    height: min-content;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+  }
+  .generate-button {
+    place-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(65, 18, 255);
+    border-radius: 100px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: min-content;
+    overflow: hidden;
+    padding: 16px 24px;
+    position: relative;
+    text-decoration: none;
+    width: min-content;
+    will-change: transform;
+    cursor: pointer;
+  }
+  
+  .generate {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+  }
+  
+  .generate p {
+    color: rgb(255, 255, 255);
+    margin: 0;
+  }
+  
